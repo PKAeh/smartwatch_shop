@@ -10,3 +10,59 @@
     font-size: 1.5em;
     text-align: center;
 }
+
+.smartwatch {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+
+img {
+    width: 300px;
+}
+
+.content p {
+    padding-top: 20px;
+}
+
+.content p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.content p:nth-child(2) {
+    font-size: 1.1em;
+    color: rgb(114, 114, 114);
+}
+
+.content p:nth-child(3) {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.colorblack,
+.colororange,
+.colorpink,
+.colorpurple {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.colorblack {
+    background-color: black;
+}
+
+.colororange {
+    background-color: #cb3d23;
+}
+
+.colorpurple {
+    background-color: #575680;
+}
+
+.colorpink {
+    background-color: #eac6bd;
+}
