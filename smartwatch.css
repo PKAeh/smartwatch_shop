@@ -95,3 +95,22 @@ img {
     cursor: pointer;
 
 }
+
+
+@media screen and (max-width: 500px) {
+    .smartwatch {
+        flex-direction: column;
+        padding: 0 15%;
+        padding-bottom: 30px;
+    }
+
+    img {
+        width: 280px;
+        height: 280px;
+        margin-right: 0;
+    }
+
+    .buy {
+        margin-top: 0;
+    }
+}
